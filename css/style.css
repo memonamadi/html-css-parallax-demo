@@ -15,10 +15,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* SECTIONS
 /* ======================================== */
 
-div.slide-right, div.slide-left {
-	visibility: hidden;
-} 
-
 section.content {
 	height: auto;
 	padding: 50px;
@@ -26,11 +22,6 @@ section.content {
 
 section.module:last-child {
 	margin-bottom: 0;
-}
-
-section.module h2 {
-	margin-bottom: 40px;
-	font-size: 30px;
 }
 
 section.module p {
@@ -63,20 +54,8 @@ section.module.parallax {
   background-size: cover;
 }
 
-section.module.parallax nav {
-	padding-top: 20px;
-}
-
 section.module.parallax-1 {
 	text-align: center;
-}
-
-section.module.parallax-1 nav a {
-	text-decoration: none;
-	color: #fff;
-	font-family: 'Roboto Slab', serif;
-	padding: 250px;
-	font-size: 25px;
 }
 
 section.module.parallax-1 {
@@ -97,10 +76,6 @@ footer {
 }
 
 @media all and (min-width: 600px) {
-	section.module h2 {
-		font-size: 42px;
-	}
-
 	section.module p {
 		font-size: 20px;
 	}
