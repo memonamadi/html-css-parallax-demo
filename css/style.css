@@ -1,0 +1,138 @@
+/* ===========================================
+/* PRIMARY STRUCTURE
+/* ======================================== */
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* ===========================================
+/* SECTIONS
+/* ======================================== */
+
+div.slide-right, div.slide-left {
+	visibility: hidden;
+} 
+
+section.content {
+	height: auto;
+	padding: 50px;
+}
+
+section.module:last-child {
+	margin-bottom: 0;
+}
+
+section.module h2 {
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+
+section.module p {
+	padding: 0 5%;
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+@media all and (max-width: 640px) {
+	section.module p {
+		padding: 0 5%;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+}
+
+section.module p:last-child {
+	margin-bottom: 0;
+}
+
+section.module.content {
+	padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax nav {
+	padding-top: 20px;
+}
+
+section.module.parallax-1 {
+	text-align: center;
+}
+
+section.module.parallax-1 nav a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	padding: 250px;
+	font-size: 25px;
+}
+
+section.module.parallax-1 {
+	background-image: url("../images/stairs.jpg");
+}
+
+section.module.parallax-2 {
+	background-image: url("../images/tree.jpg");
+}
+
+section.module.parallax-3 {
+	background-image: url("../images/building.jpg");
+}
+
+footer {
+	height: 200px;
+	background-color: black;
+}
+
+@media all and (min-width: 600px) {
+	section.module h2 {
+		font-size: 42px;
+	}
+
+	section.module p {
+		font-size: 20px;
+	}
+}
+
+@media all and (min-width: 960px) {
+	section.module.parallax h1 {
+    	font-size: 160px;
+  	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
